@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style> 
+    body{       
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+       border: solid 3px rgb(236, 242, 246);
+       border-radius: 20px;
+        background-color: rgb(168, 218, 218);
+        margin-left: 345px;
+        padding-bottom: 30px;
+        width: 600px;
+    }
+    
+    </style>
+    <h1> JavaScript </h1>
+    <button id="alertMessage"> Click to see the window alert</button>
+<div id="text"> When the below button clicked, this text is changed
+    <button id="btn-1">Click Me </button>
+</div>
+<div>
+    <ul id="for-list">
+        <li>Study</li>
+        <li>Clean</li>
+        <li>Work</li>
+    </ul>
+    <button id="btn-2"> Click me to add one more item</button>
+</div>
+<div>
+    <img src="twitter-logo.png" alt="google" id="linkden-img" style="width: 150px; height: 150px;">
+    <br>
+    <button id="linkden-btn"> Click to change the img</button>
+</div>
+
+<form id="loginForm" onsubmit="validateForm(); return false;">
+    <h2>Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+
+    <p id="loginMessage"></p>
+</form>
+
+
+   
+    <script src="window-object.and DOM .js"></script>
+</body>
+</html>
